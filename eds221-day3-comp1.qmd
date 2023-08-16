@@ -46,6 +46,8 @@ if (housing_type == "whole") {
 }
 ```
 
+-   make new branch called for loops
+-   make sure connected to upstream repo
 
 
 
