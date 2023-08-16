@@ -51,6 +51,23 @@ if (housing_type == "whole") {
 
 
 
+```{r}
+#test practice
+library(palmerpenguins)
+library(tidyverse)
+
+clean_penguins <- penguins %>% 
+  select(species, sex, bill_length_mm) %>% 
+  filter(sex == "female")
+
+graph <- ggplot(data=penguins, aes(x=bill_length_mm))+ geom_histogram()
+
+
+df1 <- select(penguins, species, sex, bill_length_mm)
+df2 <- filter(df1, sex == "female")
+
+ggsave(filename = here::here("test", "myplot.png"), plot = graph)
+```
 
 
 
