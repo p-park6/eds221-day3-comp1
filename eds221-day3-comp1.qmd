@@ -2,10 +2,23 @@
 title: "eds221-day3-comp1"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+# Conditional statement
 
 ```{r}
-1 + 1
+temperature <- 98.2
+
+if(temperature > 97){
+  print("Temperature warning")
+} else
+  print("No temperature warning")
 ```
+Create an if else statement for blue whale lengths. Create a variable blue whale, which has a value of 40. Add an if else statement that returns "GIANT" if the length exceeds 35, "medium" if the length is between 20 to 35, or "small" if the length is <=20
+
+
+```{r}
+blue_whale <- 40
+
+if
+```
+
+
