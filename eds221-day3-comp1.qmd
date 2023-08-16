@@ -16,9 +16,45 @@ Create an if else statement for blue whale lengths. Create a variable blue whale
 
 
 ```{r}
-blue_whale <- 40
+blue_whale_m <- 40
 
-if
+if(blue_whale_m > 35) { 
+  print("GIANT")
+} else if (blue_whale_m >= 20 & blue_whale_m <= 35){ 
+    print("MEDIUM")
+} else if (blue_whale_m > 20) { 
+    print("SMALL")
+}
+#else if will run if there is a conditonal statement. else just runs if there is no conditional statement
 ```
+
+Switch Statement
+```{r}
+housing_type <- "single"
+
+switch(housing_type,
+       "single" = print("400"),
+       "double" = print("750"),
+       "whole" = print ("1100"))
+
+if (housing_type == "whole") {
+  print("1100")
+} else if (housing_type == "double") {
+  print("750")
+} else if (housing_type == "single") {
+  print("400")
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
