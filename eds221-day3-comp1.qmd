@@ -84,7 +84,7 @@ write a for loop with a conditional (if) statement that returns the means of all
 
 for (i in seq_along(penguins)){
   if(is.numeric(penguins[[i]])) {
-    mean <- mean(penguins[[i]], na.rm = TRUE)
+    mean_penguins <- mean(penguins[[i]], na.rm = TRUE)
      print(mean)
   }
 }
